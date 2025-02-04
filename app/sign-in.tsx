@@ -19,7 +19,7 @@ const SignIn = () => {
     if (result) {
       refetch()
     } else {
-      Alert.alert("Failed to login")
+      Alert.alert('Error', "Failed to login")
     }
 
 
